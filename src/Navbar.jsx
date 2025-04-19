@@ -9,7 +9,7 @@ function Navbar({search, searchChange, modalOn}) {
                     <SearchBar search={search} searchChange={searchChange}></SearchBar>
                 </li>
                 <li>
-                    <img className="h-[6rem]" src="./src/assets/logo.png" alt="logo-valorant" />
+                    <img className="h-[6rem]" src="/src/assets/logo.png" alt="logo-valorant" />
                 </li>
                 <li>
                 <button onClick={modalOn} className="bg-red-500 hover:bg-gray-900 transition text-white px-4 py-2 rounded">My Team</button>

@@ -11,7 +11,7 @@ function Body({ agents, search, selectedRoles, handleCheckbox, roles, addAgent }
     return (
         <div className="bg-gray-900 min-h-9/10">
             <div className="my-9">
-                <img src="./src/assets/valorant-agents.jpg" alt="" />
+                <img src="/src/assets/valorant-agents.jpg" alt="" />
             </div>
             <h1 className="text-5xl flex justify-center text-white my-8 py-8">Choose your Team!</h1>
 
